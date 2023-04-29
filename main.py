@@ -34,7 +34,7 @@ def change_handler(name, phone): # change phone
     
     old_phone = USERS[name]
     USERS[name] = phone
-    return f'For user [ {name} ] had been changed phone number! \n Old phone number: {phone} \n New phone number: {old_phone}'
+    return f'For user [ {name} ] had been changed phone number! \n Old phone number: {old_phone} \n New phone number: {phone}'
 
 def show_all_handler():
     result = ''
